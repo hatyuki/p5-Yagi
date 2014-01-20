@@ -47,19 +47,14 @@
          },
          "requires" : {
             "Caroline" : "0",
-            "Carp" : "0",
-            "File::Basename" : "0",
             "File::Slurp" : "0",
-            "File::Spec" : "0",
             "Furl" : "0",
-            "Getopt::Long" : "0",
             "IO::Socket::SSL" : "0",
             "JSON" : "0",
-            "MIME::Base64" : "0",
             "Sub::Retry" : "0",
             "TOML" : "0",
+            "Term::Encoding" : "0",
             "Term::ReadKey" : "0",
-            "URI" : "0",
             "URI::Escape" : "0",
             "perl" : "5.014004"
          }

@@ -189,8 +189,6 @@ Yagi - Yet Another Command-Line Interface for Gist
 
 =head1 SEE ALSO
 
-L<yagi>
-
 L<Yagi::CLI>
 
 =head1 LICENSE
