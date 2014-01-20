@@ -147,6 +147,10 @@ sub gist
         $idx++;
     }
 
+    if (defined $options->{description}) {
+        $options->{description} = $encoder->decode($options->{description}, Encode::FB_CROAK);
+    }
+
     say Yagi->gist($gists, $options);
 }
 
