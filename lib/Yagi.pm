@@ -103,13 +103,6 @@ sub on_success
     my $url    = $json->{html_url};
     my $output = $options->{output};
 
-    require Data::Dumper;
-    warn Data::Dumper::Dumper($json);
-
-    my $files = $json->{files};
-    for my $file (keys %{ $files }) {
-    }
-
     return do {
         if ($output eq 'javascript') {
             sprintf qq|<script src="${url}.js"></script>|;
@@ -121,11 +114,6 @@ sub on_success
             $json;
         }
     };
-}
-
-sub rawify
-{
-    my $url = shift;
 }
 
 sub shorten

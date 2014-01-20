@@ -154,7 +154,7 @@ sub gist
 
 =head1 NAME
 
-  Yagi - Lets you upload to https://gist.github.com/
+  Yagi::CLI - Lets you upload to https://gist.github.com/
 
 =head1 SYNOPSIS
 
