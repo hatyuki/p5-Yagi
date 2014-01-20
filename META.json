@@ -1,0 +1,70 @@
+{
+   "abstract" : "Yet Another Command-Line Interface for Gist",
+   "author" : [
+      "hatyuki <hatyuki29@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Yagi",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "JSON::XS" : "0"
+         },
+         "requires" : {
+            "Caroline" : "0",
+            "Carp" : "0",
+            "File::Basename" : "0",
+            "File::Slurp" : "0",
+            "File::Spec" : "0",
+            "Furl" : "0",
+            "Getopt::Long" : "0",
+            "IO::Socket::SSL" : "0",
+            "JSON" : "0",
+            "MIME::Base64" : "0",
+            "Sub::Retry" : "0",
+            "TOML" : "0",
+            "Term::ReadKey" : "0",
+            "URI" : "0",
+            "URI::Escape" : "0",
+            "perl" : "5.014004"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "version" : "0.0001"
+}
